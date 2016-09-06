@@ -1,6 +1,10 @@
 Using the GUI:
 
-After running the SISC algorithm (written in python) from Automanner, place the patterns in a created folder name Data with a desired name.
+After running the SISC algorithm (written in python) from Automanner, run the following command with clean.py and the .mat file from the SISC algorithm to clean the data and generate a csv file
+
+python -c "from clean import *; gencsv([.csv file], [.mat file])"
+
+place the patterns in a created folder name Data with a desired name.
 
 Dependency
 
